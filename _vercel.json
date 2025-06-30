@@ -1,0 +1,14 @@
+{
+  "build": {
+    "ignoreDuringBuild": ["src/backend/**/*"],
+    "output": "out",
+    "functions": {
+      "watch": true,
+      "precompiles": false
+    }
+  },
+  "serverless": {
+    "autoExportFunctionsAsAPIRoutes": true,
+    "functionsPrebuildTime": 10
+  }
+}
