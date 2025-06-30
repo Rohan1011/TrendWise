@@ -9,7 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@auth0/nextauth": "^4.5.1",
+    "nextauth": "^4.5.1",
     "fastify": "^8.7.0",
     "mongoose": "^9.2.0",
     "next": "^14.0.3",
